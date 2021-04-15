@@ -5,6 +5,7 @@
 
 body{
     font-family: Arial, sans-serif;
+    background-color: #fafafa;
 }
 
 main {
@@ -15,8 +16,8 @@ main {
     /*alinhamento na vertical*/
     padding: 10px 0;
     /*30px para cima e para baixo, 0px para laterai*/
+    
 }
-
 .logo {
     width: 170px;
 }
@@ -26,6 +27,7 @@ main {
     border: 1px solid #ccc;
     padding: 40px 20px;
     margin: 30px;
+    border-radius: 5px;
 }
 
 .login form input {
@@ -33,6 +35,8 @@ main {
     height: 30px;
     margin: 7px 0;
     padding: 5px;
+    border: 1p solid #ccc;
+    border-radius: 3px;
 }
 
 .login form button {
@@ -41,4 +45,41 @@ main {
     padding: 5px 10px;
     width: 100%;
     border: none;
+}
+
+.cta-cadastro p a {
+    color: black;
+    font-weight: bold;
+}
+
+/* tela de cadastro */
+.cta-cadastro-2 {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.termos {
+    text-decoration: none;
+    font-weight: bold; 
+    color: black;
+}
+
+.cta-cadastro-2, .cta-cadastro {
+    text-align: center;
+}
+
+/* tela principal */
+
+.continer{
+    margin: 500px 300px;
+    border: 1px solid #ccc;
+}
+.logado, #foto-post {
+    display: flex;
+    justify-content: center;
+    /*alinhamento na horizontal*/
+    align-items: center; 
+}
+
+#foto-post {
+width: 100%;
 }
